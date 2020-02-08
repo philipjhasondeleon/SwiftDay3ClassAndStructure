@@ -14,10 +14,10 @@ struct SStudent
     var studentName:String
     var totalMarks:Double
     
-    init(studentID: Int, studentName:String){
+    init(studentID: Int, studentName:String, totalMarks: Double){
         self.studentID = studentID
         self.studentName = studentName
-        self.totalMarks = 0.0                   //if dont want to display the totalMarks
+        self.totalMarks = totalMarks
     }
     
     func display()
